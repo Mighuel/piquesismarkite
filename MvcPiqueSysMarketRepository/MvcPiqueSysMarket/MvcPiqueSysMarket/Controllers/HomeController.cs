@@ -30,7 +30,7 @@ namespace MvcPiqueSysMarket.Controllers
             return View();
         }
 
-
+        /*
         public ActionResult Login(USUARIO u)
         {
             
@@ -47,10 +47,10 @@ namespace MvcPiqueSysMarket.Controllers
                     return RedirectToAction("index", "Produto");
                 }
             }
-
+            
 
             return View();
-        }
+        }*/
 
         // GET: Home/Details/5
         public ActionResult Details(int id)
